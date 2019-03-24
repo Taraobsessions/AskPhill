@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import DesktopBreakpoint from './components/responsive/desktopBreakpoint';
+import PhoneBreakpoint from './components/responsive/mobileBreakpoint';
+
 
 class App extends Component {
   render() {
-    return ( <div>
-      
+    return (<div>
+      <DesktopBreakpoint>
+       
+      </DesktopBreakpoint>
+      <PhoneBreakpoint>
+     
+      </PhoneBreakpoint>
     </div>
     );
   }

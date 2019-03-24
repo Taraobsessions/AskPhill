@@ -1,4 +1,48 @@
+html {
+  height: 100%;
+}
 body{
   background-image: linear-gradient(to bottom, #C67418, #55026C);
-  background-attachment: fixed;
+  margin: 0px;
 }
+
+.slide-container {
+  width: 70%;
+  margin: auto; 
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+p{
+  color: white;
+  font-family:  Helvetica, Arial, sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+  /* font-weight: 200; */
+}
+
+.text{
+  text-align: center;
+}
+
+.mixmag > div{
+ height: 100px;
+ background-size: 150px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.selektor > div{
+  height: 100px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
