@@ -50,10 +50,56 @@ p{
    margin-top: 50px;
  }
 
- .react-slideshow-container .nav span {
-   border-color: white;
- }
+ .leftpane {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border-collapse: collapse;
+}
 
- .react-slideshow-container .nav{
-   background: transparent;
- }
+.leftpane > div {
+  height: 350px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  margin-left: 85px;
+  margin-top: 45%;
+}
+
+.middlepane {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border-collapse: collapse;
+}
+
+.middlepane > div{
+  height: 350px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  margin-left: 85px;
+  margin-top: 45%;
+}
+
+.rightpane {
+width: 50%;
+height: 100%;
+position: relative;
+float: right;
+border-collapse: collapse;
+}
+
+.rightpane > div{
+  height: 350px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  margin-left: 85px;
+  margin-right: 60px;
+  margin-top: 32%;
+}
+
+.dtext{
+  text-align: left;
+  font-size: 16px;
+  margin-left: 85px;
+  max-width: 70%;
+}
