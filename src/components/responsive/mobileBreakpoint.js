@@ -8,9 +8,8 @@ import '../../index.css'
 export default function PhoneBreakpoint(props) {
   return (
     <Breakpoint name='phone'>
-      {props.children}
       {slideshow()}
-    <LogoSwitch></LogoSwitch>
+      <LogoSwitch />
     </Breakpoint>
   );
 }
@@ -20,7 +19,7 @@ const slideImages = [
   '/resources/Hansje.webp'
 ];
 
-const properties = {
+const slideProperties = {
   transitionDuration: 500,
   autoplay: false,
   infinite: true,
@@ -30,7 +29,7 @@ const properties = {
 
 const slideshow = () => {
   return (
-    <Slide {...properties}>
+    <Slide {...slideProperties}>
       <div className="each-slide">
         <div style={{ 'backgroundImage': `url(${slideImages[0]})` }}>
         </div>

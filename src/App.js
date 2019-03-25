@@ -5,13 +5,11 @@ import './index.css'
 
 class App extends Component {
   render() {
-    return (<div>
-      <DesktopBreakpoint>
-      </DesktopBreakpoint>
-      <PhoneBreakpoint>
-     
-      </PhoneBreakpoint>
-    </div>
+    return (
+      <div>
+        <DesktopBreakpoint />
+        <PhoneBreakpoint />
+      </div>
     );
   }
 }

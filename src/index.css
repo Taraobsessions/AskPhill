@@ -1,7 +1,7 @@
 html {
   height: 100%;
 }
-body{
+body {
   background-image: linear-gradient(to bottom, #C67418, #55026C);
   margin: 0px;
 }
@@ -21,18 +21,18 @@ body{
   height: 300px;
 }
 
-p{
+p { 
   color: white;
   font-family:  Helvetica, Arial, sans-serif;
   letter-spacing: 1.5px;
   font-size: 17px;
 }
 
-.text{
+.text {
   text-align: center;
 }
 
-.mixmag > div{
+.mixmag > div {
  height: 100px;
  background-size: 150px;
  background-repeat: no-repeat;
@@ -46,7 +46,7 @@ p{
   background-position: center;
  }
 
- .logotext{
+ .logotext {
    margin-top: 50px;
  }
 
@@ -72,7 +72,7 @@ p{
   border-collapse: collapse;
 }
 
-.middlepane > div{
+.middlepane > div {
   height: 350px;
   background-size: 250px;
   background-repeat: no-repeat;
@@ -81,14 +81,14 @@ p{
 }
 
 .rightpane {
-width: 50%;
-height: 100%;
-position: relative;
-float: right;
-border-collapse: collapse;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: right;
+  border-collapse: collapse;
 }
 
-.rightpane > div{
+.rightpane > div {
   height: 350px;
   background-size: 250px;
   background-repeat: no-repeat;
@@ -97,14 +97,14 @@ border-collapse: collapse;
   margin-top: 32%;
 }
 
-.dtext{
+.dtext {
   text-align: left;
   font-size: 16px;
   margin-left: 85px;
   max-width: 70%;
 }
 
-.names{
+.names { 
   text-align: left;
   font-size: 16px;
   margin-left: 85px;
